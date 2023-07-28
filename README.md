@@ -2,7 +2,7 @@
 
 This code performs fine-tuning on a pre-trained BERT-based model (DistilBERT) for question answering using the SQuAD v2 dataset. 
 
-*Description of the model:
+*Description of the code:
 
 Import Libraries and Set Seed: The code starts by importing necessary libraries, including PyTorch, Hugging Face Transformers, and the SQuAD dataset. It also sets a seed to ensure reproducibility.
 
