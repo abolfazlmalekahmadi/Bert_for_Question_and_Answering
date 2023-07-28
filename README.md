@@ -21,7 +21,7 @@ Evaluation: After each epoch, the model is switched to evaluation mode (model.ev
 Plotting Loss and Accuracy: Finally, the code plots the average loss and accuracy per epoch using matplotlib.
 
 
-#note
+**note
 
 It's important to note that fine-tuning a language model requires substantial computational resources, and the provided code assumes the availability of a GPU (cuda) for accelerated training. If you don't have access to a GPU, you can remove the .to(device) calls to run the model on CPU (though the training process will be significantly slower).  Before running this code, you should ensure that all the required libraries (such as torch, datasets, transformers, etc.) are installed and that the squad_v2 dataset is properly loaded
 
